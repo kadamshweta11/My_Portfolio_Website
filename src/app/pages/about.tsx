@@ -27,6 +27,7 @@ const About = () => {
           <p className="text-lg mb-4">
             Always exploring new technologies, I thrive on **problem-solving and innovation**. My work revolves around crafting **secure, user-friendly experiences** that merge creativity with technology.
           </p>
+          {/* eslint-disable-next-line react/no-unescaped-entities */}
           <p className="text-lg mb-6">
             Let's connect and build something impactful together! 
           </p>

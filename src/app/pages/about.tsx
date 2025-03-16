@@ -28,7 +28,7 @@ const About = () => {
             Always exploring new technologies, I thrive on **problem-solving and innovation**. My work revolves around crafting **secure, user-friendly experiences** that merge creativity with technology.
           </p>
           <p className="text-lg mb-6">
-            Let's connect and build something impactful together! 🚀
+            Let's connect and build something impactful together! 
           </p>
 
           {/* Buttons - SEO Optimized & Trending UI */}

@@ -29,7 +29,7 @@ const About = () => {
           </p>
           {/* eslint-disable-next-line react/no-unescaped-entities */}
           <p className="text-lg mb-6">
-            Let's connect and build something impactful together! 
+            Let us connect and build something impactful together! 
           </p>
 
           {/* Buttons - SEO Optimized & Trending UI */}

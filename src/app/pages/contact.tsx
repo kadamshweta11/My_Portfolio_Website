@@ -1,10 +1,12 @@
 import React from 'react';
+import Image from 'next/image';
+
 
 const Contact: React.FC = () => {
   return (
     <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content p-10 flex justify-between items-center">
       <aside className="flex items-center">
-        <img src="/SK.png" alt="Shweta Kadam" width="80" height="80" className="mr-3" />
+        <Image src="/SK.png" alt="Shweta Kadam" width="80" height="80" className="mr-3" />
         <p>
           @2025 Design and Developed by
           <br />

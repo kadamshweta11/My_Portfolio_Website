@@ -95,7 +95,7 @@
 "use client";
 import React, { Suspense, useRef, useEffect, useState } from "react";
 import { Canvas, useFrame, extend } from "@react-three/fiber";
-import { OrbitControls, useFBX, useAnimations } from "@react-three/drei";
+import { useFBX, useAnimations } from "@react-three/drei";
 import * as THREE from "three";
 
 extend({ Object3D: THREE.Object3D });

@@ -1,4 +1,4 @@
-import { Card, CardHeader, CardBody, Image } from "@heroui/react";
+import { Card,  Image } from "@heroui/react";
 
 interface ProjectCardProps {
   title: string;

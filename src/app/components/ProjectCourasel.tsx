@@ -7,7 +7,15 @@ import 'swiper/css/navigation';
 import ProjectCard from './card';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
-export default function ProjectsCarousel({ projects }: { projects: any[] }) {
+// Define the type for a single project
+interface Project {
+  title: string;
+  description: string;
+  link?: string;
+  imageUrl?: string;
+}
+
+export default function ProjectsCarousel({ projects }: { projects: Project[]}) {
   return (
     <div className="w-full max-w-7xl mx-auto relative px-12"> {/* Increased max-width and added padding */}
       <Swiper

@@ -3,6 +3,8 @@
 import { motion } from "framer-motion";
 import Navbar from "../components/Navbar";
 import { useEffect, useState } from "react";
+import Image from 'next/image';
+
 
 const experiences = [
   {
@@ -81,7 +83,7 @@ const Experience = () => {
             >
               {/* Circle image */}
               <div className="w-24 h-24 rounded-full flex items-center justify-center mr-6">
-                <img
+                <Image
                   src={exp.image}
                   alt={exp.title}
                   className="w-24 h-24 rounded-full object-cover"

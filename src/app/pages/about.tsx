@@ -9,10 +9,10 @@ const About = () => {
         {/* Left Side - Image */}
         <div className="md:w-1/2 flex justify-center mb-6 md:mb-0">
           <Image
-            src="/image.png" // Make sure image.png is in the /public folder
+            src="/myphoto.jpg" // Make sure image.png is in the /public folder
             alt="Shweta Kadam"
-            width={400}
-            height={400}
+            width={600}
+            height={600}
             className="rounded-lg shadow-lg"
           />
         </div>
@@ -22,10 +22,10 @@ const About = () => {
           <h1 className="text-4xl font-bold mb-4">Shweta Kadam </h1>
           <h5 className="text-2xl font-bold mb-4">Developer/Content Creator</h5>
           <p className="text-lg mb-4">
-            A **Web & Data Engineer**, shaping the digital world with innovative and AI-driven solutions. Passionate about **React, Next.js, and low-code development**, I build seamless and scalable applications.
+            A Web & Data Engineer, shaping the digital world with innovative and AI-driven solutions. Passionate about MERN Stack Frontend ,Backend and Database development, I build seamless and scalable applications.
           </p>
           <p className="text-lg mb-4">
-            Always exploring new technologies, I thrive on **problem-solving and innovation**. My work revolves around crafting **secure, user-friendly experiences** that merge creativity with technology.
+            Always exploring new technologies, I thrive on problem-solving and innovation. My work revolves around crafting secure, user-friendly experiences that merge creativity with technology.
           </p>
           {/* eslint-disable-next-line react/no-unescaped-entities */}
           <p className="text-lg mb-6">
@@ -48,7 +48,7 @@ const About = () => {
               rel="noopener noreferrer"
               className="bg-red-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition-all hover:scale-105 hover:shadow-lg flex items-center justify-center gap-2"
             >
-              🔴 Subscribe on YouTube
+               My YouTube
             </a>
           </div>
         </div>

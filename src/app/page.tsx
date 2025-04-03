@@ -6,6 +6,7 @@ import Experience from "./pages/experience";
 import Skills from "./pages/skills";
 import Contact from "./pages/contact";
 
+
 export default function app() {
   return (
     <>
@@ -23,6 +24,7 @@ export default function app() {
       <div id="experience">
         <Experience />
       </div>
+      
       <div id="skills">
         <Skills />
       </div>

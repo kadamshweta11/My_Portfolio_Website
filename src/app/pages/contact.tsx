@@ -8,7 +8,7 @@ const Contact: React.FC = () => {
         <p>
           @2025 Design and Developed by
           <br />
-          Shweta Kadam
+          Shweta Kadam.
         </p>
       </aside>
       <nav className="flex flex-col items-center">
